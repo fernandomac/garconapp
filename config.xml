@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.lits.garconapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Garçonete So de Cenoura</name>
+    <description>
+             App de uso das garçonetes do restaurante Só de Cenoura.
+    </description>
+    <author email="qualquer@lits.com" href="http://lits.com">
+        Fernando Machado
+    </author>
+   
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xF2F2F2FF" />
+</widget>
