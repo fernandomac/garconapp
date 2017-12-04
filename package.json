@@ -10,15 +10,23 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
+    "cordova-android": "^6.3.0",
     "cordova-browser": "^5.0.1",
-    "cordova-plugin-whitelist": "^1.3.3"
+    "cordova-plugin-statusbar": "^2.3.0",
+    "cordova-plugin-vibration": "^2.1.6",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "phonegap-plugin-barcodescanner": "^7.0.0"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "phonegap-plugin-barcodescanner": {},
+      "cordova-plugin-vibration": {}
     },
     "platforms": [
-      "browser"
+      "browser",
+      "android"
     ]
   }
 }
