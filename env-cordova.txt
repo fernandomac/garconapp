@@ -1,0 +1,64 @@
+ENV Cordova
+https://cursos.alura.com.br
+Usuário: fmachado@scopus.com.br
+Senha: 7c6acdbe
+
+
+#Instalacao NODEJS. (https://nodejs.org/en/)
+node -v
+
+#Instalacao CORDOVA
+npm -g install cordova
+cordova -v
+
+#Criando Projeto
+cordova create garconapp org.sergiolopes.garconapp “Garconete So de Cenoura”
+
+#Platform BROWSER
+cordova platform add browser
+cordova run browser 
+
+#JDK
+
+#GRADLE (https://gradle.org/install/#manually)
+
+#Platform ANDROID (https://developer.android.com/studio/index.html?hl=pt-br#downloads)
+
+sdkmanager --list
+sdkmanager "platform-tools" "platforms;android-27"
+sdkmanager "build-tools;27.0.1"
+sdkmanager "add-ons;addon-google_apis-google-24"
+
+cordova platform add android
+cordova run android --device
+
+No device 
+	- habilitar Instalacao de fontes  desconhecidas
+  	- habilitar modo desenvolvedor
+	- habilitar debug remoto
+
+#IONIC
+sudo npm install -g ionic
+
+#Plugins
+cordova plugin add cordova-plugin-statusbar --save
+cordova plugin remove cordova-plugin-statusbar --save
+cordova plugin add phonegap-plugin-barcodescanner --save
+cordova plugin add cordova-plugin-vibration --save
+cordova plugin list
+
+
+chrome://inspect/
+
+
+Profile path
+
+export PATH=$PATH:/Users/fernando/Documents/android-sdk/tools:/Users/fernando/Documents/android-sdk/tools/bin:/Users/fernando/Documents/gradle-4.3.1/bin
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
+export ANDROID_HOME=/Users/fernando/Documents/android-sdk
+export GRADLE_HOME=/Users/fernando/Documents/gradle-4.3.1
+
+
+~/.bashrc
+~/.bash_profile
+~/.profile
