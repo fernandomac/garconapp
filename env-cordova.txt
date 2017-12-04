@@ -1,8 +1,4 @@
 ENV Cordova
-https://cursos.alura.com.br
-Usuário: fmachado@scopus.com.br
-Senha: 7c6acdbe
-
 
 #Instalacao NODEJS. (https://nodejs.org/en/)
 node -v
